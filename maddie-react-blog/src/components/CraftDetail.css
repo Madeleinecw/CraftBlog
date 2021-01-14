@@ -1,0 +1,18 @@
+.tags {
+    background-color: gray;
+    color: white;
+    height: auto;
+    padding: 3px;
+}
+
+.postContainer {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+    margin: 2px;
+}
+
+.craftContainer {
+    flex-basis: 33%;
+    margin: 6px;
+}
