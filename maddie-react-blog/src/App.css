@@ -8,20 +8,25 @@
     font-size: 70px;
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-}
-
 .nav-bar-links {
     text-decoration: none;
     list-style: none;
+    display: flex;
     flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
 }
 
 .nav-link>a {
     flex-direction: row;
     text-decoration: none;
+    color: black;
+    font-family: 'Pirata One', cursive;
+    font-size: 30px;
+}
+
+.nav-link>a:hover {
+    color: red;
 }
 
 .App-logo {
