@@ -20,7 +20,6 @@ const PostContainer = ({crafts}) => {
     
     return(
         <div className="postContainer">
-            <p>Hi</p>
             {craftsList}
          </div>
     )

@@ -15,7 +15,6 @@ const CraftDetail = ({craft}) => {
         <div className="craftContainer" key={craft.id}>
         <h2>{craft.Name}</h2>
         <img className="image" src={imgURL} height="400" width="400"/>
-        <p>{craft.Description}</p>
         <p className="tags">{craft.tags[0].Name}</p>
         </div>
         </>

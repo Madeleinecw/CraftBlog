@@ -1,10 +1,27 @@
 .App {
     text-align: center;
+    align-items: center;
 }
 
 .maddie {
     font-family: 'Pirata One', cursive;
     font-size: 70px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-links {
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav-link>a {
+    flex-direction: row;
+    text-decoration: none;
 }
 
 .App-logo {
